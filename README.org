@@ -1,0 +1,14 @@
+#+TITLE: This is an org mode file
+
+* This is a header
+** This is a subheader
+
+$\alpha^2$
+
+#+begin_src python
+def fact(n):
+    if n == 0:
+        return 1
+    else:
+        return n * fact(n - 1)
+#+end_src
